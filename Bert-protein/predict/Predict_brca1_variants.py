@@ -40,6 +40,7 @@ precs=[]
 aucs2=[]
 mean_recall=np.linspace(0,1,100)
 
+#Data input
 seq_stop = pd.read_csv('./brct_stop_BERT.csv',dtype=float)
 seq = pd.read_csv('./brct_BERT.csv',dtype=float)
 data = pd.read_csv('./BRCT_output.csv',dtype=str)
